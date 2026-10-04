@@ -1,0 +1,120 @@
+
+--- 2026-10-03T07:55:22.203202 ---
+Traceback (most recent call last):
+  File "C:\Users\m.abdi\Downloads\CommercialSystem_v0_3_6\CommercialSystem_v0_3\ui\pi.py", line 222, in add_item_from_product
+    spec = "; ".join(f"{sp.parameter}: {sp.value}" for sp in p.specifications[:4])
+                                                             ^^^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 569, in __get__
+    return self.impl.get(state, dict_)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 1096, in get
+    value = self._fire_loader_callables(state, key, passive)
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 1131, in _fire_loader_callables
+    return self.callable_(state, passive)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\strategies.py", line 922, in _load_for_state
+    raise orm_exc.DetachedInstanceError(
+    ...<3 lines>...
+    )
+sqlalchemy.orm.exc.DetachedInstanceError: Parent instance <Product at 0x1fe67d1aea0> is not bound to a Session; lazy load operation of attribute 'specifications' cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+
+
+--- 2026-10-03T07:55:28.349903 ---
+Traceback (most recent call last):
+  File "C:\Users\m.abdi\Downloads\CommercialSystem_v0_3_6\CommercialSystem_v0_3\ui\pi.py", line 222, in add_item_from_product
+    spec = "; ".join(f"{sp.parameter}: {sp.value}" for sp in p.specifications[:4])
+                                                             ^^^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 569, in __get__
+    return self.impl.get(state, dict_)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 1096, in get
+    value = self._fire_loader_callables(state, key, passive)
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 1131, in _fire_loader_callables
+    return self.callable_(state, passive)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\strategies.py", line 922, in _load_for_state
+    raise orm_exc.DetachedInstanceError(
+    ...<3 lines>...
+    )
+sqlalchemy.orm.exc.DetachedInstanceError: Parent instance <Product at 0x1fe67d1aea0> is not bound to a Session; lazy load operation of attribute 'specifications' cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+
+
+--- 2026-10-03T07:56:30.507292 ---
+Traceback (most recent call last):
+  File "C:\Users\m.abdi\Downloads\CommercialSystem_v0_3_6\CommercialSystem_v0_3\ui\pi.py", line 222, in add_item_from_product
+    spec = "; ".join(f"{sp.parameter}: {sp.value}" for sp in p.specifications[:4])
+                                                             ^^^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 569, in __get__
+    return self.impl.get(state, dict_)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 1096, in get
+    value = self._fire_loader_callables(state, key, passive)
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 1131, in _fire_loader_callables
+    return self.callable_(state, passive)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\strategies.py", line 922, in _load_for_state
+    raise orm_exc.DetachedInstanceError(
+    ...<3 lines>...
+    )
+sqlalchemy.orm.exc.DetachedInstanceError: Parent instance <Product at 0x1fe67d1aea0> is not bound to a Session; lazy load operation of attribute 'specifications' cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+
+
+--- 2026-10-03T08:07:05.077843 ---
+Traceback (most recent call last):
+  File "C:\Users\m.abdi\Downloads\CommercialSystem_v0_3_6\CommercialSystem_v0_3\ui\pi.py", line 222, in add_item_from_product
+    spec = "; ".join(f"{sp.parameter}: {sp.value}" for sp in p.specifications[:4])
+                                                             ^^^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 569, in __get__
+    return self.impl.get(state, dict_)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 1096, in get
+    value = self._fire_loader_callables(state, key, passive)
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 1131, in _fire_loader_callables
+    return self.callable_(state, passive)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\strategies.py", line 922, in _load_for_state
+    raise orm_exc.DetachedInstanceError(
+    ...<3 lines>...
+    )
+sqlalchemy.orm.exc.DetachedInstanceError: Parent instance <Product at 0x1fe05bec150> is not bound to a Session; lazy load operation of attribute 'specifications' cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+
+
+--- 2026-10-03T08:08:36.956773 ---
+Traceback (most recent call last):
+  File "C:\Users\m.abdi\Downloads\CommercialSystem_v0_3_6\CommercialSystem_v0_3\ui\pi.py", line 222, in add_item_from_product
+    spec = "; ".join(f"{sp.parameter}: {sp.value}" for sp in p.specifications[:4])
+                                                             ^^^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 569, in __get__
+    return self.impl.get(state, dict_)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 1096, in get
+    value = self._fire_loader_callables(state, key, passive)
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 1131, in _fire_loader_callables
+    return self.callable_(state, passive)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\strategies.py", line 922, in _load_for_state
+    raise orm_exc.DetachedInstanceError(
+    ...<3 lines>...
+    )
+sqlalchemy.orm.exc.DetachedInstanceError: Parent instance <Product at 0x1fe05bec150> is not bound to a Session; lazy load operation of attribute 'specifications' cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+
+
+--- 2026-10-03T08:08:45.960084 ---
+Traceback (most recent call last):
+  File "C:\Users\m.abdi\Downloads\CommercialSystem_v0_3_6\CommercialSystem_v0_3\ui\pi.py", line 222, in add_item_from_product
+    spec = "; ".join(f"{sp.parameter}: {sp.value}" for sp in p.specifications[:4])
+                                                             ^^^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 569, in __get__
+    return self.impl.get(state, dict_)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 1096, in get
+    value = self._fire_loader_callables(state, key, passive)
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\attributes.py", line 1131, in _fire_loader_callables
+    return self.callable_(state, passive)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\m.abdi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\orm\strategies.py", line 922, in _load_for_state
+    raise orm_exc.DetachedInstanceError(
+    ...<3 lines>...
+    )
+sqlalchemy.orm.exc.DetachedInstanceError: Parent instance <Product at 0x1fe05bec150> is not bound to a Session; lazy load operation of attribute 'specifications' cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+
